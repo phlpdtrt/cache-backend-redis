@@ -19,7 +19,7 @@ namespace PhlpDtrt\CacheBackendRedis\Backend;
  * @link       https://github.com/phlpdtrt/cache-backend-redis
  */
 
-class Redis extends \Cm_Cache_Backend_Redis implements Zend_Cache_Backend_ExtendedInterface
+class Redis extends \Cm_Cache_Backend_Redis implements \Zend_Cache_Backend_ExtendedInterface
 {
     /**
      * @var array
